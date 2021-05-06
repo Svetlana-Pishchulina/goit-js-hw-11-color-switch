@@ -23,7 +23,7 @@ function onButtonStartClick() {
   timerId = setInterval(
     () =>
       (document.body.style.backgroundColor =
-        colors[randomIntegerFromInterval(0, colors.length)]),
+        colors[randomIntegerFromInterval(0, colors.length - 1)]),
     1000,
   );
   // console.log('start!');
